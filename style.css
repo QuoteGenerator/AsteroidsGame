@@ -1,0 +1,64 @@
+body, html{
+    background-color: black;
+    margin: 0px;
+    inset: 0px;
+    color: white;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#starsBackground{
+    width:35em;
+    height:50em;
+    background: 
+    radial-gradient(0.1em, white 50%,transparent 50%) 1em 13em,
+    radial-gradient(0.2em, white 50%,transparent 50%) 8em 24em,
+    radial-gradient(0.1em, white 50%,transparent 50%) -10em 3em,
+    radial-gradient(0.1em, white 50%,transparent 50%) -4em 18em,
+    radial-gradient(0.2em, white 50%,transparent 50%) 5em 14em,
+    radial-gradient(0.1em, white 50%,transparent 50%) 6em 4em,
+    radial-gradient(0.15em, white 50%,transparent 50%) 7em 4em,
+    radial-gradient(0.1em, white 50%,transparent 50%) -8em 16em,
+    radial-gradient(0.1em, white 50%,transparent 50%) 9em -15em,
+    radial-gradient(0.2em, white 50%,transparent 50%) -10em -4em,
+    radial-gradient(0.1em, white 50%,transparent 50%) -11em 4em,
+    radial-gradient(0.1em, white 50%,transparent 50%) 12em -10em,
+    radial-gradient(0.1em, white 50%,transparent 50%) 2em 13em,
+    radial-gradient(0.1em, white 50%,transparent 50%) 15em 24em,
+    radial-gradient(0.1em, white 50%,transparent 50%) -2em -3em,
+    radial-gradient(0.3em, white 50%,transparent 50%) -8em -18em,
+    radial-gradient(0.1em, white 50%,transparent 50%) 8em -16em,
+    radial-gradient(0.1em, white 50%,transparent 50%) 9em -15em,
+    radial-gradient(0.1em, white 50%,transparent 50%) -10em -4.5em,
+    radial-gradient(0.15em, white 50%,transparent 50%) -11em -4em,
+    radial-gradient(0.1em, white 50%,transparent 50%) -12em -10em,
+    radial-gradient(0.15em, white 50%,transparent 50%) -13em -8em;
+    border:1px solid white;
+}
+
+#player{
+    position:relative;
+    left:0em;
+    top:-28em;
+
+    background: transparent;
+    width:0em;
+    height:0em;
+    rotate:0;
+    border-left:1.0em solid transparent;
+    border-right:1.0em solid transparent;
+    border-bottom:2.3em solid red;
+    transition: 0.1s linear;
+}
